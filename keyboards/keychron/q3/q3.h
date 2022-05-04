@@ -18,14 +18,12 @@
 
 #include "quantum.h"
 
-#if   defined(KEYBOARD_keychron_q3_rev_0120)
-#    include "rev_0120.h"
-#elif defined(KEYBOARD_keychron_q3_rev_0121)
-#    include "rev_0121.h"
-#elif defined(KEYBOARD_keychron_q3_rev_0122)
-#    include "rev_0122.h"
-#elif defined(KEYBOARD_keychron_q3_rev_0123)
-#    include "rev_0123.h"
-#elif defined(KEYBOARD_keychron_q3_rev_0120_lhg)
-#    include "rev_0120_lhg.h"
+#if defined(KEYBOARD_keychron_q3_q3_ansi_stm32l432)
+#    include "q3_ansi_stm32l432.h"
+#elif defined(KEYBOARD_keychron_q3_q3_ansi_stm32l432_ec11)
+#    include "q3_ansi_stm32l432_ec11.h"
+#elif defined(KEYBOARD_keychron_q3_q3_iso_stm32l432)
+#    include "q3_iso_stm32l432.h"
+#elif defined(KEYBOARD_keychron_q3_q3_iso_stm32l432_ec11)
+#    include "q3_iso_stm32l432_ec11.h"
 #endif

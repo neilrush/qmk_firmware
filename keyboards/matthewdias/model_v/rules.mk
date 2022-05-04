@@ -16,3 +16,7 @@ NKRO_ENABLE = yes           # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
+<<<<<<<< HEAD:keyboards/matthewdias/model_v/rules.mk
+========
+ENCODER_ENABLE = yes
+>>>>>>>> origin/playground:keyboards/handwired/mutepad/rules.mk
